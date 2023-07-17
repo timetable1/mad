@@ -1,0 +1,104 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto" 
+xmlns:tools="http://schemas.android.com/tools" 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+tools:context=".MainActivity">
+
+<TextView
+android:layout_width="204dp" 
+android:layout_height="82dp" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="187dp" 
+android:layout_marginBottom="601dp" 
+android:text="BIET" 
+android:textAlignment="center" 
+android:textColor="#771919" 
+android:textSize="35sp" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" />
+
+<ImageView
+android:id="@+id/imageView" 
+android:layout_width="117dp" 
+android:layout_height="103dp" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="48dp" 
+android:layout_marginBottom="598dp" 
+app:srcCompat="@drawable/logo" />
+
+<View
+
+android:layout_width="320dp" 
+android:layout_height="2dp" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="43dp" 
+android:layout_marginBottom="569dp" 
+android:background="#2B2829" />
+
+<TextView
+android:id="@+id/textView" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="86dp" 
+android:layout_marginBottom="463dp" 
+android:text="SANTHOSH T" 
+android:textColor="#D81D74" 
+android:textSize="40sp" />
+
+<TextView
+android:id="@+id/textView2" 
+android:layout_width="344dp" 
+android:layout_height="wrap_content" 
+android:layout_alignParentStart="true" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginStart="37dp" 
+android:layout_marginEnd="30dp" 
+android:layout_marginBottom="315dp" 
+android:text="Assistant Professor" 
+android:textAlignment="center" 
+android:textColor="#233878" 
+android:textSize="50sp" />
+ 
+
+<TextView
+android:id="@+id/textView3" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="156dp" 
+android:layout_marginBottom="220dp" 
+android:text="BIET, DAVANAGERE" 
+android:textAlignment="center" 
+android:textColor="#681177" 
+android:textSize="50sp" />
+
+<TextView
+android:id="@+id/textView4" 
+android:layout_width="348dp" 
+android:layout_height="109dp" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="23dp" 
+android:layout_marginBottom="96dp" 
+android:text="Email:tsanthosh@bietdvg.edu" 
+android:textAlignment="center" 
+android:textColor="#852323" 
+android:textSize="30sp" />
+
+
+ 
+</RelativeLayout>
+

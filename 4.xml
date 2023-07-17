@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto" 
+xmlns:tools="http://schemas.android.com/tools" 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+tools:context=".MainActivity">
+
+<TextView
+android:id="@+id/textView" 
+android:layout_width="401dp" 
+android:layout_height="58dp" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="3dp" 
+android:layout_marginBottom="560dp" 
+android:fontFamily="sans-serif-condensed-light" 
+android:text="Wallpaper" 
+android:textAlignment="center"
+
+android:textAppearance="@style/TextAppearance.AppCompat.Large" 
+android:textColor="#F44336"
+android:textSize="48sp" 
+android:textStyle="bold" 
+tools:layout_editor_absoluteX="171dp" 
+tools:layout_editor_absoluteY="120dp" />
+
+<Button
+android:id="@+id/button" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true"
+ 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="74dp" 
+android:layout_marginBottom="351dp" 
+android:text="Change Wallpaper" 
+android:onClick="start" 
+android:textSize="26sp" />
+</RelativeLayout>

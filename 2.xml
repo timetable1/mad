@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+ 
+xmlns:tools="http://schemas.android.com/tools" 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+tools:context=".MainActivity">
+
+
+<TextView
+android:id="@+id/textView1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="69dp" 
+android:layout_marginBottom="613dp" 
+android:fontFamily="monospace" 
+android:text="Calculator" 
+android:textAlignment="center" 
+android:textColor="#E91E63" 
+android:textSize="48sp" 
+android:textStyle="bold" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" />
+
+<EditText
+android:id="@+id/editText1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="72dp" 
+android:layout_marginBottom="513dp" 
+android:ems="10" 
+android:inputType="text" 
+android:text=""
+android:hint="Enter Number 1" 
+android:textSize="24sp" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" />
+
+<EditText
+android:id="@+id/editText2" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true"
+android:layout_marginEnd="72dp" 
+android:layout_marginBottom="427dp" 
+android:ems="10" 
+android:inputType="text" 
+android:hint="Enter Number 2" 
+android:text="" 
+android:textSize="24sp" 
+tools:layout_editor_absoluteX="77dp"
+tools:layout_editor_absoluteY="268dp" />
+
+
+<TextView
+android:id="@+id/textView2" 
+android:layout_width="165dp" 
+android:layout_height="88dp" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="135dp" 
+android:layout_marginBottom="322dp" 
+android:text=""
+android:textSize="50sp" 
+android:textAlignment="center" 
+android:textColor="#F44336" 
+tools:layout_editor_absoluteX="168dp" 
+tools:layout_editor_absoluteY="359dp" />
+
+
+<Button
+android:id="@+id/button" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="263dp" 
+android:layout_marginBottom="241dp" 
+android:text="ADD" 
+android:onClick="add" 
+tools:layout_editor_absoluteX="90dp"
+tools:layout_editor_absoluteY="437dp" />
+
+
+<Button
+android:id="@+id/button2" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="81dp" 
+android:layout_marginBottom="239dp" 
+android:text="SUB" 
+android:onClick="sub" 
+tools:layout_editor_absoluteX="256dp"
+tools:layout_editor_absoluteY="437dp" />
+
+<Button
+android:id="@+id/button3" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="262dp" 
+android:layout_marginBottom="113dp" 
+android:text="MUL" android:onClick="mul" 
+tools:layout_editor_absoluteX="87dp"
+tools:layout_editor_absoluteY="552dp" />
+
+<Button
+android:id="@+id/button4" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentEnd="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginEnd="83dp" 
+android:layout_marginBottom="115dp" 
+android:text="DIV" 
+android:onClick="div" 
+tools:layout_editor_absoluteX="253dp"
+tools:layout_editor_absoluteY="538dp" />
+
+</RelativeLayout>
+
